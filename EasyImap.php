@@ -191,7 +191,6 @@ class EasyImap
       $line .= ' ' . $token;
     }
     
-    echo  $line,PHP_EOL."-------------------------------";
     
     if (@fputs($this->_socket, $line . "\r\n") === false) {
       echo('cannot write - connection closed?');
