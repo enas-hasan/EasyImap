@@ -3,8 +3,8 @@
 include('EasyImap.php');
 
 /**
- * @see https://github.com/barbushin/php-imap
- * @author Barbushin Sergey http://linkedin.com/in/barbushin
+ * @see https://github.com/enas-hasan/EasyImap
+ * @author Enas Hasan
  *
  */
 
