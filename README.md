@@ -57,6 +57,14 @@ Examples :
   Easy Imap : $this->fetch(array("body.peek[1]", "body.peek[1]","body[header.fields (Message-ID from subject)]", "INTERNALDATE"), array(12990));
 
 
+-Get and parse emails:
+---------
+
+  $imap->getMessage(array(id1, id2), true); // summery (From , Message-ID , subject and date)
+  
+  $imap->getMessage(array(id1, id2), false); // full email (From , Message-ID , subject , date , body [text version] and body [html version] )
+
+
 for more examples read example.php
 
 
