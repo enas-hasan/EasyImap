@@ -1,5 +1,11 @@
 <?php
 
+/**
+ * @see https://github.com/enas-hasan/EasyImap
+ * @author Enas Hasan
+ *
+ */
+
 class EasyImap
 {
 
